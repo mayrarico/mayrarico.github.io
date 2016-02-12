@@ -3,4 +3,47 @@ header{
     text-align: left;
     background-color: dodgerblue;
     font-family: tahoma;
+    font-size: 12px;
 }
+
+#IntelCorei7{
+    color:black;
+    text-align: left;
+    background-color: white;
+    font-size:8px;
+}
+
+#readywakecreate{
+    color:black;
+    text-align: left;
+    background-color: white;
+    font-size: 8px;
+}
+
+#processor{
+    float: right;
+    
+}
+
+#customersupport{
+    background-color: lightgrey;
+    font-family: tahoma;
+}
+
+#overview{
+    background-color: white;
+    font-family: tahoma;
+    font-size: 12px;
+}
+
+#ssd{
+    float:left;
+    background-color:white;
+}
+
+#architect{
+    font-family:tahoma;
+    font-size: 12px;
+    background-color:white;
+}
+
