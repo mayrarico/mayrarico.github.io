@@ -1,4 +1,9 @@
-.box{
-    width:500px;
-    
+#berries{
+    float:left;
+}
+
+#text{
+    float: left;
+    background-color: lightgray;
+    font-family:tahoma;
 }
