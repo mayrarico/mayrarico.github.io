@@ -1,0 +1,53 @@
+/*Add CSS rules*/
+html, body{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+
+#mainbody{
+    font-family: Arial;
+    width: 100%;
+}
+
+#mainbody:after{
+    clear:both;
+    content:".";
+    display: block;
+    height:0;
+    line-height:0;
+    visibility: hidden;
+    
+}
+
+.section1 {
+    width:23.3333%;
+    margin:5%;
+    float:left;
+    
+}
+
+img{
+    width:100%
+}
+
+a {
+    font-size: 10px;
+    margin-top: 10px;
+    padding:10px;
+    background-color: #ddd;
+    border-right:5px solid red;
+    
+}
+
+a:hover{
+    
+    background-color: aliceblue;
+    transition: all 2s;
+}
+
+
+p{
+    font-size: 12px;
+    line-height: 1.5;
+}
