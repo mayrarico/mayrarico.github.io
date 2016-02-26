@@ -50,7 +50,7 @@ p{
 #dos{
     background-image: url('../img/featured-image-4.jpg');
     background-size:cover;
-    margin-top: 4%;
+    margin-top: 1%;
     height:50%;
     width:100%;
     
@@ -62,7 +62,7 @@ p{
     background-size:cover;
     width:68%;
     float:left;
-    margin-left:2%;
+    margin-left:1%;
     height: 100%;
 
 }
