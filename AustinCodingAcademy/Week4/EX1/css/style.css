@@ -15,6 +15,7 @@ p, h1, a {
 .gardin > div{
     background-color: rgba(0,0,0, .5);
     padding: 100px 0;
+    height:300px;
    
 }
 .transformers {
@@ -42,7 +43,7 @@ p{
 #uno{
     background-image: url('../img/featured-image-3.jpg');
     background-size:cover;
-    height:50%;
+    height:300px;
     width:100%;
 
 }
@@ -51,7 +52,7 @@ p{
     background-image: url('../img/featured-image-4.jpg');
     background-size:cover;
     margin-top: 1%;
-    height:50%;
+    height:300px;
     width:100%;
     
 
@@ -60,19 +61,26 @@ p{
 #tres{
     background-image: url('../img/featured-image-5.jpg');
     background-size:cover;
-    width:68%;
+    width:100%;
     float:left;
     margin-left:1%;
-    height: 100%;
+    height: 600px;
 
 }
 
 .opacity > div{
     background-color: rgba(0,0,0, .5);
-    padding: 30px 10px;}
+    height:300px;}
+
+#tres > div{
+    background-color: rgba(0,0,0, .5);
+    height:600px;
+    vertical-align: middle;}
    
 .opacity{
     width:100%;
+    height:300px;
+    border:1px solid blue;
 }
 
 .left {
@@ -82,8 +90,9 @@ p{
 
 .landscape {
     float:left;
-    width:45%;
+    width:50%;
 }
+
 
 #more {
     height: 30px;
@@ -104,4 +113,8 @@ p{
     padding: 10px;
     
 }
-    
+
+.parent{
+    height:600px;
+    border:1px solid red;
+}
