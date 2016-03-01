@@ -1,74 +1,149 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
-
-nav{
-    background color:white;
-    padding:2% 1%;
+nav {
+    padding: 2% 1%;
     width:98%;
-    
 }
 
-h1{
+h1 {
     font-size: 25px;
-    float:left;
+    float: left;
 }
 
-ul li{
-    display:inline-block;
+nav ul {
     float:right;
 }
 
+ul li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    font-size: .75em;
+    color:grey;
+    padding-left: 10px
+}
+
 .clearfix:after {
-    clear:both;
-    content:"-";
-    display:block;
-    height:0;
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
     line-height: 0;
     visibility: hidden;
 }
 
-nav a{
-    color:#2f2f2f;
-    text-decoration: none;
-    margin-left: 5px;
-    font-size: .75em;
-    
-}
-
-main{
-    background-image: url(../img/wine-bg.jpg);
-    background-size: cover;
-    text-align: center;
+main {
+    background-image:url(../img/wine-bg.jpg);
+    background-size:cover;
+    text-align:center;
     color:white;
 }
 
-main > div{
-    background-color: rgba(0,0,0,.6);
-    padding:200px 0;
+main > div {
+    background-color:rgba(0,0,0,.8);
+    padding: 150px 0px;
 }
 
-.2boxes{
-    width:100%; 
+main div p {
+    font-size: 12px;
 }
 
-.2boxes div{
+main div p:nth-child(6) {
+    font-style: italic;
+}
+
+h2 {
+    font-size: 45px;
+}
+.halfpage {
+    width: 100%;
+}
+
+.halfpage div {
     float:left;
 }
 
-.box2 img{
-    width:70%;
+.halfpage div:first-child {
+    width:60%;
+    text-align: center;
+}
+
+.halfpage p:nth-child(1) {
+    font-size: 12px;
+    color:darkgrey;
+    padding-top: 120px;
+    padding-bottom: 35px;
+}
+
+h3{
+    font-weight: 800;
+    text-align: center;
+}
+
+.halfpage p:nth-child(3) {
+    font-size: 11px;
+    color: black;
+    padding-top:35px;
+    text-align: center;
+}
+
+.halfpage div:nth-child(2) {
+    width: 40%;
+}
+
+.halfpage img {
+    width: 70%;
     margin-left: 15%;
 }
 
-.box1{
-    width:60%;
-    float:left;
+#section3 {
+    background-image:url(../img/wine13.jpg);
+    background-size:cover;
+    text-align:center;
+    color:white;
 }
 
-.box2{
-    width:40%;
-    float:left;
+#section3 > div {
+    background-color:rgba(0,0,0,.8);
+    padding:180px 0px;
 }
 
+#section3 div p:nth-child(1) {
+    font-size: 23px;
+    margin: 0 30px;
+}
 
+#section3 div p:nth-child(3) {
+    font-size: 11px;
+    margin: 0 30px;
+}
+
+.wines {
+    width:33%;
+    float: left;
+    text-align: center;
+}
+
+.wines > img {
+    width:30%;
+    height:48%;
+}
+
+.wines p:nth-child(4) {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.wines p:nth-child(2) {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.wines > a {
+    background-color: #AFD955;
+    color:white;
+    padding: 8px 25px;
+}
