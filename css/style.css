@@ -1,0 +1,30 @@
+body {
+font-family: 'Muli', sans-serif;}
+
+header{
+    color:#C24889;
+    font-style: oblique;
+}
+
+h1 {
+    font-size: 30px;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    font-size: .75em;
+    color:#48C281;
+    padding-left: 10px
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+
