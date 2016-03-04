@@ -143,7 +143,11 @@ h3{
 
 h4{
     color:#4D9164;
-font-family: 'Julius Sans One', sans-serif;    font-size: 1.5em;
+font-family: 'Julius Sans One', sans-serif;    
+    font-size: 2em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 .section3 {
@@ -170,7 +174,7 @@ font-family: 'Julius Sans One', sans-serif;    font-size: 1.5em;
 }
 
 .section3 > div {
-    padding:180px 0px;
+    padding:1px 0px;
 }
 
 .section3 div p:nth-child(1) {
@@ -189,6 +193,8 @@ font-family: 'Julius Sans One', sans-serif;    font-size: 1.5em;
     text-align: center;
     height:30%;
     background-color: #CACACC;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .motivation > h3{
@@ -210,7 +216,8 @@ font-family: 'Julius Sans One', sans-serif;    font-size: 1.5em;
 }
 
 .motivation ul{
-    text-align: left}
+    text-align: left;
+padding-left: 10px;}
 }
 
 .motivation p:nth-child(4) {
@@ -228,4 +235,12 @@ font-family: 'Julius Sans One', sans-serif;    font-size: 1.5em;
     background-color: #AFD955;
     color:white;
     padding: 8px 25px;
+}
+
+.fressclass{
+    size:100%;
+    align-content: center;
+}
+.freeclass img{
+    height:500px;
 }
