@@ -1,17 +1,22 @@
-body {
-    font-family: 'Roboto', sans-serif;}
-padding-left:10%;
-padding-right:10%;
 
-}
+  html {
+        /* Size of largest container or bigger */
+        max-width: 1080px;
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+
+body {
+    font-family: 'Roboto', sans-serif;
+font-size: 1em;}
+
 
 nav {
-    padding: 1% 1%;
-    width: 80%;
+    padding: 20px 20px;
 }
 
 h1 {
-    font-size: 31px;
+    font-size: 4em;
     float: left;
     color: #4D9164;
     font-family: 'Julius Sans One', sans-serif;
@@ -28,7 +33,7 @@ ul li {
 
 a {
     text-decoration: none;
-    font-size: .75em;
+    font-size: .5em;
     color: #4D9164;
     padding-left: 10px
 }
@@ -47,7 +52,7 @@ main {
     background-size: cover;
     text-align: center;
     color: ghostwhite;
-    height: 40vh;
+    max-width: 1080px;
     background-color: rgba(0, 0, 0, .9);
     background-position: center center;
 }
@@ -69,25 +74,25 @@ main a {
 }
 
 h2 {
-    font-size: 45px;
+    font-size: 3em;
 }
 
 .halfpage {
-    width: 100%;
-    padding-top: 10px;
+    max-width: 1080px;
 }
 
 .apple{
-    width: 36%;
+    width: 34%;
     float: left;
     height:100%;
+    padding-top:2%;
+    padding-bottom: 1%;
 }
 
 .orange{
-    width: 54%;
+    width: 62%;
     float: left;
-    padding-top: 30px;
-    padding-left: 40px;
+    padding: 2%;
     text-align: justify;
 
 }
@@ -110,7 +115,6 @@ h2 {
 }
 
 h3 {
-    font-weight: 800;
     text-align: center;
 }
 
@@ -130,15 +134,14 @@ h4 {
 .section3 {
     text-align: center;
     color: #038A94;
-    width: 100%;
+    max-width: 1080px;
     height: 300px;
-    padding-left: 30px;
-    padding-bottom: 10px;
 }
 
 .section3 img {
     width: 90%;
     height: 50%;
+    padding:0% 5%;
     float: left;
 }
 
@@ -146,17 +149,8 @@ h4 {
     float: left;
     display: inline;
     width: 50%;
+    align-content: center;
 }
-
-.section3 > div {
-    padding: 1px 0px;
-}
-
-.section3 div p:nth-child(1) {
-    font-size: 23px;
-    margin: 0 30px;
-}
-
 
 .motivation {
     width: 25%;
