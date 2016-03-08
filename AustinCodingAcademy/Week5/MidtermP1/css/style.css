@@ -141,6 +141,8 @@ h4 {
     font-size: 2em;
     text-align: center;
     line-height: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .section3 {
@@ -169,7 +171,7 @@ h4 {
     display: inline-block;
     float: left;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
 }
 
 .motivation  div {
@@ -190,6 +192,7 @@ h4 {
 }
 .motivation > img {
     height: 200px;
+    padding-bottom: 12px;
 }
 .motivation ul {
     text-align: left;
@@ -209,6 +212,7 @@ h4 {
     background-color:rgba(0, 0, 0, .9);
         height: 280px;
     background-position:bottom center;
+    
 }
 
 .freeclass > div{
@@ -218,4 +222,19 @@ h4 {
     padding-bottom: 5%;
 
 }
+
+.end {
+    padding: 20px 20px;
+    font-size: 10px;
+    color: #4D9164;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    float: left;
+    color: #4D9164;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
 
