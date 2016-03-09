@@ -65,12 +65,12 @@ main {
     text-align: center;
     color: ghostwhite;
     max-width: 1080px;
-    background-color: rgba(0, 0, 0, .9);
+    background-color: rgba(0, 0, 0, .3);
     background-position: center center;
 }
 
 main > div {
-    background-color:rgba(0,0,0,.6);
+    background-color:rgba(0,0,0,.3);
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -98,16 +98,17 @@ h2 {
     float: left;
     height:100%;
     padding-top:2%;
-    padding-bottom: 1%;
+    padding-bottom: 3%;
 }
 
-.orange{
+.orange {
     width: 62%;
     float: left;
     padding: 2%;
     text-align: justify;
 
 }
+
 
 .halfpage > p {
     text-align: center;
@@ -138,7 +139,7 @@ h3 {
 h4 {
     color: #4D9164;
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 2em;
+    font-size: 30px;
     text-align: center;
     line-height: 2em;
     padding-top: 10px;
@@ -164,6 +165,20 @@ h4 {
     display: inline;
     width: 50%;
     align-content: center;
+}
+
+.section3 h4 {
+    background-color: #4D9164;
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1em;
+    line-height: 1em;
+    border-right: 80px solid white;
+    border-left: 80px solid white;
+
+    text-align: center;
+    align-content: center;
+    object-position: center;
 }
 
 .motivation {
