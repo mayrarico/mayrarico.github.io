@@ -3,12 +3,14 @@ font-family: 'Muli', sans-serif;}
 
 header{
     color:#C24889;
-    font-style: oblique;
+    text-align: center;
+    
 }
 
 h1 {
-    font-size: 30px;
-    float: left;
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 1%;
 }
 
 a {
@@ -27,4 +29,48 @@ a {
     visibility: hidden;
 }
 
+
+.apples img{
+    height: 30%;
+    width:30%;
+    text-align: center;
+    align-content: center;
+    border: 3px solid #C24889;
+}
+
+.apples{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+.apples > p {
+    line-height: 20px;
+}
+
+.apples > h2{
+    color:#C24889;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.oranges{
+    text-align: center;
+    padding-left: 20%;
+    padding-left: 20%;
+}
+
+.weeks{
+    width:30%;
+    float: left;
+    text-align: left;
+    padding-bottom: 5%;
+}
+
+.weeks > p{
+    border: 1px solid #C24889;
+    text-align: center;
+    
+}
 

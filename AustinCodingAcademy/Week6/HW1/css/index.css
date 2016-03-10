@@ -1,0 +1,44 @@
+            .apples {
+    background-image: url(../img/sub_header_home.jpg);
+    background-size: cover;
+    text-align: left;
+    color: ghostwhite;
+    background-color: rgba(0, 0, 0, .3);
+    background-position: center center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.apples {
+    padding-left: 3%;
+    text-align: center;
+}
+
+.apples > h2 {
+    font-size: 40px;
+}
+
+.grapes {
+    width: 25%;
+    float: left;
+    align-content: center;
+    text-align: center;
+    padding-top: 3%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .grapes {
+        width: 50%;
+    }
+    .apples {
+        background-image: url(../img/sub_header_home.jpg);
+    }
+    @media (max-width: 767px) {
+        .grapes {
+            width: 100%;
+            float: left;
+            display:inline;}
+        
+        .apples {
+                background-image: url(../img/sub_header_home.jpg);
+            }
