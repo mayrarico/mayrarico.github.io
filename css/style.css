@@ -81,7 +81,6 @@ font-family: 'Roboto Condensed', sans-serif;
     
 }
 
-
 .gaara {
     width:100%;
     float: left;
@@ -90,8 +89,11 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 .gaara img{
-height:170px;
-    width: 170px;
+    height: 100px;
+    width:100px;
+    text-align: center;
+    align-content: center;
+    border: 3px solid #C24889;
 }
 
 
