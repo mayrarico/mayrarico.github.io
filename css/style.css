@@ -1,10 +1,12 @@
 body {
-font-family: 'Muli', sans-serif;}
+font-family: 'Roboto Condensed', sans-serif;
+padding-left: 100px;
+padding-right: 100px;
+text-align: center;}
 
 header{
-    color:#C24889;
+    color:#48C281;
     text-align: center;
-    
 }
 
 h1 {
@@ -15,9 +17,8 @@ h1 {
 
 a {
     text-decoration: none;
-    font-size: .75em;
+    line-height: 25px;
     color:#48C281;
-    padding-left: 10px
 }
 
 .clearfix:after {
@@ -49,28 +50,52 @@ a {
 }
 
 .apples > h2{
-    color:#C24889;
+    color:#48C281;
     text-align: center;
     font-size: 30px;
     line-height: 40px;
 }
 
-.oranges{
-    text-align: center;
-    padding-left: 20%;
-    padding-left: 20%;
-}
-
 .weeks{
     width:30%;
+    float:left;
+    padding-bottom: 5%;
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.notes{
+    width:100%;
     float: left;
-    text-align: left;
     padding-bottom: 5%;
 }
 
-.weeks > p{
-    border: 1px solid #C24889;
+h4{
     text-align: center;
+    font-size: 20px;
+font-family: 'Roboto Condensed', sans-serif;
+    background-color: #C24889;
+    border: 30px solid white;
+    color: white;
+    
     
 }
 
+
+.gaara {
+    width:100%;
+    float: left;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.gaara img{
+height:170px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+
+ul {
+    list-style-type:none;
+}
