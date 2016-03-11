@@ -1,0 +1,42 @@
+.my_header {
+    background-color: bisque;
+}
+
+li{
+    display: inline-block;
+    text-decoration: none;
+}
+
+img{
+    width:100%;
+}
+
+.my_nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: darkseagreen;
+}
+
+.my_nav ul{
+    margin:20px 0;
+padding-left: 0;}
+
+li a{
+    color:hotpink;
+    font-size: 10px;
+    margin-right: 15px;
+}
+
+
+.my_content{
+    background-color:lightcoral;
+}
+
+.my_content > div{
+    background-color: blueviolet;
+}
+
+.my_content p{
+    
+margin-top:30px;
+}
