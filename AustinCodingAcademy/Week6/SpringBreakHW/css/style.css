@@ -1,65 +1,4 @@
-*{
-    font-family:Sans-serif;
-}
-
-
-#apples div:nth-child(2){
-    margin-top:30px;
-}
-
-
-.recipes img {
-    height:250px;
-
-}
-
-.brag{
-    height: 250px;
-}
-header{
-    color:white;
-    background-color:#B0E0E6;
-}
-
-header p a{
-    font-size: 12px;
-    color: white;
-    margin-left: 10px;
-}
-
-header p{
-    margin-top: 15px;
-    margin-right: 14px;
-}
-
-header h1{
-    margin-top: 13px;
-    margin-left: 30px;
-    font-size: 60px;
-}
-        
-main{
-margin-top: 30px;
-}
-
-.second-section{
-    margin-top: 20px;    
-}
-
-.buttons{
-    margin-top: 1px;
-    font-size: 15px;
-}
-
-a:link {
-    color: black;
-}
-
-footer{
-    text-align: center;
-}
-
-.clear:after {
+.clearfix:after {
     clear: both;
     content: ".";
     display: block;
@@ -67,3 +6,111 @@ footer{
     line-height: 0;
     visibility: hidden;
 }
+
+body {
+    background-color: #FFFFFF;
+    font-family: sans-serif;
+}
+
+
+#image_slider{
+    height:400px;
+    width:400px;
+}
+
+.food{
+    height:400px;
+}
+
+#wholetitle {
+    font-size: 25px;
+}
+
+#my_nav a {
+    color: #581845;
+}
+
+#active > a {
+    background-color: #DAF7A6;
+}
+
+.nav_bar {
+    margin-bottom: 2%;
+}
+
+.mainbutton {
+    background-color: #EE7300;
+}
+
+.jumbotron {
+    margin-top: 2%;
+    background-color: #DAF7A6;
+}
+
+.jumbotron h1 {
+    color: #581845;
+}
+
+.carousel-inner > .item > img {
+    height: 500px;
+}
+
+.sub_header {
+    width: 80%;
+}
+
+.footer {
+    margin-top: 2%;
+    background-color: #581845;
+}
+
+.footer li {
+    display:inline;
+}
+
+.quote1 {
+}
+
+.img-thumbnail > img{
+    height: 100px;
+    width: 100px;
+}
+
+
+blockquote{
+    border-left:none
+}
+
+.quote-badge{
+    background-color: rgba(0, 0, 0, 0.1);   
+}
+
+.quote-box{
+    
+    overflow: hidden;
+    margin-top: -50px;
+    padding-top: -100px;
+    background-color: #581845;
+    margin-top: 25px;
+    color:white;
+    width: 400px;
+    box-shadow: 1px black solid;
+    
+}
+
+.quotation-mark{
+    
+    margin-top: -10px;
+    font-weight: bold;
+    font-size:50px;
+    color:white;
+    font-family: Serif;
+    
+}
+
+.quotetext{
+    
+    font-size: 19px;
+    margin-top: -65px;
+}
+

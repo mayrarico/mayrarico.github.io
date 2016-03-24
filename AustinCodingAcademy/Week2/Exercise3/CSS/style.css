@@ -1,10 +1,48 @@
-#berries{
-    float:left;
-
+* {
+/*    outline: 1px solid red;*/
 }
 
-#text{
-    float: left;
-    background-color: lightgray;
-    font-family:tahoma;
+section {
+    width: 500px;
+    
+}
+
+#right {
+    width:50%;
+    text-align: center;
+    background-color: rgb(240,240,240);
+    }
+
+#left {
+    width:50%;
+    
+}
+
+img {
+    width: 100%;
+        
+}
+
+p {
+    color: #555;
+    padding-bottom: 20px;
+}
+
+button {
+    font-weight: bold;
+    color: #252b3b;
+    border: 2px solid #555;
+    padding: 5px;
+    text-decoration: none;
+}
+
+main {
+    width:100%;
+    margin: auto;
+    display: inline;
+}
+
+h2#berries {
+    color: #252b3b;
+    font-size: 20px;
 }
