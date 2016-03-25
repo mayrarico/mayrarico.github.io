@@ -1,0 +1,21 @@
+.mylogo  {
+    width:100px;
+    
+}
+
+.myheader {
+    background-color: lavenderblush;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#carousel-example-generic{
+    max-height: 271px;
+    overflow: hidden;
+}
+
+.carousel-caption{
+    top:0;
+    background-color: lavenderblush;
+}
