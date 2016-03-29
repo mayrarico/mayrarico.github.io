@@ -8,9 +8,10 @@ body {
 }
 
 header {
-    color: #48C281;
+    color: #000000;
     text-align: center;
 }
+
 
 h1 {
     font-size: 50px;
@@ -20,8 +21,8 @@ h1 {
 
 a {
     text-decoration: none;
-    line-height: 25px;
-    color: #48C281;
+    line-height: 22px;
+    color: #666666;
 }
 
 .clearfix:after {
@@ -38,7 +39,7 @@ a {
     width: 30%;
     text-align: center;
     align-content: center;
-    border: 1px solid #000000;
+    border: 1px solid #A19893;
 }
 
 .apples {
@@ -52,7 +53,7 @@ a {
 }
 
 .apples > h2 {
-    color: #48C281;
+    color: #A19893;
     text-align: center;
     font-size: 30px;
     line-height: 40px;
@@ -70,7 +71,7 @@ a {
     width: 100%;
     float: left;
     padding-bottom: 2%;
-    color: blueviolet;
+    color: #C5BAB5;
     font-size: 20px;
     font-style: italic;
 }
@@ -79,9 +80,9 @@ h4 {
     text-align: center;
     font-size: 20px;
     font-family: 'Roboto Condensed', sans-serif;
-    background-color: #1157D6;
-    border: 30px solid white;
-    color: white;
+    background-color: #7B0F20;
+    border: 20px solid #fff;
+    color: #fff;
 }
 
 .gaara {
@@ -96,7 +97,7 @@ h4 {
     width: 150px;
     text-align: center;
     align-content: center;
-    border: 1px solid #1157D6;
+    border: 1px solid #000000;
 }
 
 ul {
