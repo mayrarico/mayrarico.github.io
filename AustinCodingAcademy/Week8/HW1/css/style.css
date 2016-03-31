@@ -1,0 +1,30 @@
+.clearfix:after {
+            clear: both;
+            content: ".";
+            display: block;
+            height: 0;
+            line-height: 0;
+            visibility: hidden;
+        }
+
+.section2 img{
+      height:200px;
+    display: inline;
+    float:center;
+}
+
+.section3{
+    float:center;
+}
+
+.section3 img{
+    height:200px;
+    display: inline;
+    float:center;
+    
+}
+
+
+#half1 {
+    background-color: mediumpurple;
+}
